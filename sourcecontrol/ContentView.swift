@@ -15,8 +15,13 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("This is source control")
+            
+            Button("Click me"){
+            }
         }
         .padding()
+        
+        
         
     }
 }
